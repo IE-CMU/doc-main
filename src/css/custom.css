@@ -4,6 +4,29 @@
  * work well for content-centric websites.
  */
 
+@font-face {
+  font-family: "Prompt";
+  src: url("/static/fonts/Prompt-Medium.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Setimo;
+  src: url("/static/fonts/Prompt-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Setimo;
+  src: url("/static/fonts/Prompt-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -15,6 +38,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: "Prompt";
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
