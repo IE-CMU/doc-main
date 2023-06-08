@@ -16,7 +16,7 @@
   src: url("/static/fonts/Prompt-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
-  font-display: swap
+  font-display: swap;
 }
 
 @font-face {
@@ -24,25 +24,25 @@
   src: url("/static/fonts/Prompt-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
-  font-display: swap
+  font-display: swap;
 }
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #9b030b;
+  --ifm-color-primary-dark: #8c030a;
+  --ifm-color-primary-darker: #840309;
+  --ifm-color-primary-darkest: #6d0208;
+  --ifm-color-primary-light: #ab030c;
+  --ifm-color-primary-lighter: #b2030d;
+  --ifm-color-primary-lightest: #ca040e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: "Prompt";
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
