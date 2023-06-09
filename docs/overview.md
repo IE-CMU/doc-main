@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ## ชื่อ
 
-ภาควิชาวิศวกรรมอุตสาหการ
+ภาควิชาวิศวกรรมอุตสาหการ (Department of Industrial Engineering)
 
 ## ที่ตั้ง
 
