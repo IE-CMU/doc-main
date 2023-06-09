@@ -60,12 +60,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "logo/industrial_engineering_logo.png",
+      image: "logo/industrial_engineering_logo_bg.png",
       navbar: {
-        title: "IE-CMU",
+        title: "IE-Doc",
         logo: {
           alt: "IE-CMU Doc",
-          src: "logo/industrial_engineering_logo.png",
+          src: "logo/industrial_engineering_logo_bg.png",
         },
         items: [
           {
