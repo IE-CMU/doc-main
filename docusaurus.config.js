@@ -10,6 +10,8 @@ const config = {
   tagline: "ข้อมูลสำหรับนักศึกษา สาขาวิศวกรรมอุตสาหการ มหาวิทยาลัยเชียงใหม่",
   favicon: "img/favicon.ico",
 
+  staticDirectories: ["public", "static"],
+
   // Set the production url of your site here
   url: "https://iedoc.eng.cmu.ac.th",
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -74,7 +76,7 @@ const config = {
             position: "left",
             label: "Docs",
           },
-          { to: "/blog", label: "News", position: "left" },
+          // { to: "/blog", label: "News", position: "left" },
         ],
       },
       footer: {
