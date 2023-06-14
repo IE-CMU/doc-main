@@ -2,42 +2,20 @@
 sidebar_position: 1
 ---
 
-# ข้อมูลทั่วไป
+# ABET
 
-### ชื่อปริญญา
+## Program Educational Objectives
 
-- **วิศวกรรมศาสตรบัณฑิต** (วิศวกรรมอุตสาหการ)
-- **วศ.บ.** (วิศวกรรมอุตสาหการ)
-- **Bachelor of Engineering** (Industrial Engineering)
-- **B.Eng.** (Industrial Engineering)
+1. The graduates are able to solve engineering problems and to provide sustainable solutions through industrial engineering principles and systematic experimentation with appropriate judgement.
+2. The graduates are able to collaborate with others through effective communication and to demonstrate professional leadership with high moral and ethical standards.
+3. The graduates are able to prompt life-long learning with ability to adapt to the globalized social, environmental and economic conditions through professional development.
 
-### รูปแบบการศึกษา
+## Student Outcome
 
-- หลักสูตรระดับปริญญาตรี หลักสูตร 4 ปี
-
-### ค่าธรรมเนียมการศึกษา
-
-- ภาคปกติ ภาคการศึกษาละ 16,000 บาท
-- ภาคพิเศษ ภาคการศึกษาละ 35,000 บาท
-
-### ภาษาที่ใช้
-
-- ภาษาไทย
-
-### การรับเข้าศึกษา
-
-- รับนักศึกษาไทย
-- นักศึกษาต่างชาติที่สามารถพูด ฟัง อ่าน เขียน และเข้าใจภาษาไทย
-
-### ติดตามการรับสมัครได้ที่
-
-- [CMU Registration Website](https://www1.reg.cmu.ac.th/ugradapply)
-
-### รายละเอียดหลักสูตร
-
-- [โครงสร้างหลักสูตร](/files/undergrad_th/structure.pdf)
-- [แผนการเรียน (ปกติ) ](/files/undergrad_th/study_plan_regular.pdf)
-- [แผนผังการเรียน (ปกติ)](/files/undergrad_th/study_plan_chart_regular.pdf)
-- [แผนการเรียน (สหกิจศึกษา)](/files/undergrad_th/study_plan_coop.pdf)
-- [แผนผังการเรียน (สหกิจศึกษา)](/files/undergrad_th/study_plan_chart_coop.pdf)
-- [รายละเอียดเนื้อหากระบวนวิชา](/files/undergrad_th/course_des.pdf)
+1. An ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, sciences, and mathematics.
+2. An ability to apply engineering design to produce solutions that meet specified needs with consideration of public health, safety and welfare, as well as global, cultural, social, environmental, and economic factors.
+3. An ability to communication effectively with a range of audiences.
+4. An ability to recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economics, environmental, and societal contexts.
+5. An ability to function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals plan tasks, and meet objectives.
+6. An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
+7. An ability to acquire and apply new knowledge as needed, using appropriate learning strategies.
