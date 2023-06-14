@@ -11,6 +11,12 @@ jobs:
     name: Send Request to Webhook
     runs-on: ubuntu-latest
     steps:
+      - name: Send Any GET Request
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: "https://swapi.dev/api/people/1"
+          method: "GET"
+
       - name: Send Post Request
         uses: fjogeleit/http-request-action@v1
         with:
