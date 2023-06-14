@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Course Sequence
+# Course Sequence XXX
 
 ![image](/files/undergrad_en/course_chart.png)
 
