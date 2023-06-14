@@ -20,5 +20,5 @@ jobs:
       - name: Send Post Request
         uses: fjogeleit/http-request-action@v1
         with:
-          url: "https://iedoc.eng.cmu.ac.th/hooks/redeploy-iedoc"
+          url: "https://ieadmin.eng.cmu.ac.th/hooks/redeploy-iedoc"
           method: "GET"
