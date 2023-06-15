@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Prompt";
-  src: url("/fonts/Prompt-Medium.ttf") format("ttf");
+  src: url("/fonts/Prompt-Medium.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: Setimo;
-  src: url("/static/fonts/Prompt-Italic.ttf") format("truetype");
+  src: url("/fonts/Prompt-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
