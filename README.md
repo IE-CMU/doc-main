@@ -1,6 +1,7 @@
 # Build
 
 - `docker build -t nnnpooh/iedoc:latest .`
+- `docker build -t iecmu/iedoc:latest .`
 
 # Test
 
@@ -9,3 +10,4 @@
 # Run
 
 - `docker push nnnpooh/iedoc`
+- `docker push iecmu/iedoc`
