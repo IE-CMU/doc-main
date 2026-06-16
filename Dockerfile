@@ -1,21 +1,18 @@
-FROM node:16-alpine AS development
-
-COPY ./package.json /tmp
-COPY package-lock.json /tmp
-
-RUN cd /tmp && npm install
+FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-RUN cp -R /tmp/node_modules .
+# Copy dependency manifests first for better layer caching.
+COPY package.json package-lock.json ./
 
-ENV NODE_ENV=production
+# Use npm ci for reproducible builds based on package-lock.json.
+RUN npm ci --no-audit --no-fund
 
 COPY . .
 
 RUN npm run build
 
-FROM nginx:1.23.1-alpine AS production
+FROM nginx:1.27-alpine AS production
 
-COPY ./nginx.conf /etc/nginx/templates/default.conf.template
-COPY --from=development /app/build /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/templates/default.conf.template
+COPY --from=builder /app/build /usr/share/nginx/html
